@@ -19,10 +19,10 @@ This project is a practical learning implementation inspired by the research pub
 
 The application follows a decoupled client-server architecture:
 
-| Component | Tech Stack | Purpose |
+| Component | Tech Stack | Hosting | Purpose |
 | :--- | :--- | :--- | :--- |
-| **Frontend** | Next.js, React, Tailwind CSS, TypeScript | Drag-and-drop studio UI with side-by-side image comparison. |
-| **Backend** | FastAPI, PyTorch, NumPy, Python | REST API (`/api/enhance`) for multi-scale illumination estimation & gamma correction. |
+| **Frontend** | Next.js, React, Tailwind CSS, TypeScript | Vercel | Drag-and-drop studio UI with side-by-side image comparison. |
+| **Backend** | FastAPI, PyTorch, NumPy, Python | Render | REST API (`/api/enhance`) for multi-scale illumination estimation & gamma correction. |
 
 ---
 
